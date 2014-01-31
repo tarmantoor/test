@@ -19,8 +19,6 @@ public class LoginEvent extends BaseEvent{
 		super("LoginEvent");
 	}
 	
-	
-	
 	public StatusType getLoginResult() {
 		return loginResult;
 	}
