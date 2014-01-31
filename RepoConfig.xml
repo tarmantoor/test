@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<repoconfig xmlns="http://ebay.com/tools/wsm/rpm/config/model">
+    <localRepository>
+	</localRepository>
+    <repositories>
+        <repository resolver="ice" id="branch">
+            <url>
+				http://qa-release600.qa.ebay.com/esbranch/
+			</url>
+        </repository>
+        <repository resolver="ice" id="label">
+            <url>
+				http://qa-release600.qa.ebay.com/eslabel/
+			</url>
+        </repository>
+    </repositories>
+</repoconfig>
