@@ -19,9 +19,7 @@ public class LoginEvent extends BaseEvent{
 		super("LoginEvent");
 	}
 	
-	public DeviceType getDevice() {
-		return device;
-	}
+	
 	
 	public StatusType getLoginResult() {
 		return loginResult;
