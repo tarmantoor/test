@@ -839,4 +839,10 @@ public class ShippingDeliveryEstimateServiceImpl
 		
 		return false;
 	}
+	
+	private myfix(){
+	if(compSDE == null)
+				sde.setTreatedFlag(true);
+		
+	}
 }
