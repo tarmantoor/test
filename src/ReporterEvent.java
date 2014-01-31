@@ -10,6 +10,7 @@ public class ReporterEvent {
 	String[] outcomeKeyNames;
 	String[] outcomeKeyValues;
 	
+	String[] outcome;
 	String[] outcomeValueNames;
 	String[] outcomeValueValues;
 	
