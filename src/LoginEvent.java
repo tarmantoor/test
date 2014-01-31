@@ -13,12 +13,7 @@ public class LoginEvent extends BaseEvent{
    public int passwordLength;
    public boolean isUserIdentifiedPriorLogin;
    public boolean didUserLoginAsIdentifiedUser;
-   public int noOfAttemptsBeforeSuccess;
-   
-	public LoginEvent(){
-		super("LoginEvent");
-	}
-	
+   public int noOfAttempts
 	public DeviceType getDevice() {
 		return device;
 	}
